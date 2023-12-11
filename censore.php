@@ -2,7 +2,7 @@
 $text = $_GET['text'];
 $censita = $_GET["censita"];
 $text_lngt = strlen($text);
-$censored_text = str_replace($censita, '***', $text);
+$censored_text = str_replace("$censita", '***', $text);
 $text_cens_lngt = strlen($text);
 ?>
 
@@ -18,12 +18,12 @@ $text_cens_lngt = strlen($text);
     <?php
     echo $text;
     ?>
-    <h3>Il testo contiene <?php $echo $text_lngt ?> parole.</h3>
+    <h3>Il testo contiene <?php echo $text_lngt; ?> parole.</h3>
 
     <h2>Testo censurato:</h2>
     <?php
     echo $censored_text;
     ?>
-    <h3>Il testo censito contiene <?php $echo $text_cens_lngt ?> parole.</h3>
+    <h3>Il testo censito contiene <?php echo $text_cens_lngt; ?> parole.</h3>
 </body>
 </html>

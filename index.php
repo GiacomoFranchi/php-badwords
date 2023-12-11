@@ -9,11 +9,11 @@
     <h1>CENSURATORE DI TESTI</h1>
     <h2>Inserisci il testo e la parola che vuoi che venga censurata</h2>
 
-    <form action="censita.php" method="GET">
-        <label for="text">Tuo nome</label>
+    <form action="censore.php" method="GET">
+        <label for="text">Il tuo testo</label>
         <input type="text" id="text" name="text">
 
-        <label for="censore">Tuo cognome</label>
+        <label for="censore">La parola da censurare</label>
         <input type="text" id="censore" name="censore">
 
         <button type="submit">Invia</button>
