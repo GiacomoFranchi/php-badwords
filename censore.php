@@ -16,12 +16,12 @@ $text_lngt = strlen($text);
     <?php
     echo $text;
     ?>
-    <h3>Il testo contiene <?php echo $text_lngt; ?> parole.</h3>
+    <h3>Il testo contiene <?php echo $text_lngt; ?> lettere.</h3>
 
     <h2>Testo censurato:</h2>
     <?php
     echo $cens_text = str_replace($censita, '***', $text);
     ?>
-    <h3>Il testo censito contiene <?php echo strlen($cens_text); ?> parole.</h3>
+    <h3>Il testo censito contiene <?php echo strlen($cens_text); ?> lettere.</h3>
 </body>
 </html>
