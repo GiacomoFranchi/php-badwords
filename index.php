@@ -13,8 +13,8 @@
         <label for="text">Il tuo testo</label>
         <input type="text" id="text" name="text">
 
-        <label for="censore">La parola da censurare</label>
-        <input type="text" id="censore" name="censore">
+        <label for="censita">La parola da censurare</label>
+        <input type="text" id="censita" name="censita">
 
         <button type="submit">Invia</button>
     </form>
